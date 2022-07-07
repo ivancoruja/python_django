@@ -1,0 +1,31 @@
+/* body {
+    background-color: thistle;
+} */
+
+body {
+    background: url(https://c.pxhere.com/photos/76/51/Server_Tech-1616396.jpg!d);
+    background-repeat: repeat;
+}
+
+div {
+    background-color: lightyellow;
+    border: 2px;
+    border-style: dotted;
+    border-color: black;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+p {
+    font-weight: bold;
+    color: rgb(155, 18, 189);
+}
+
+.out {
+    color: aliceblue;
+}
+
+span {
+    color: rgb(138, 90, 0);
+    background-color: rgb(191, 255, 255);
+}
