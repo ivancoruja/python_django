@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up!</title>
+    <style>
+        td {
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Course sign up</h1>
+    <p>Please Note: First Name, Last Name, Password, and Email are required</p>
+
+    <form action="thankyou.html" method="get">
+
+        <table>
+            <tr>
+                <td>
+                    <label for="fname">First name: </label>
+                    <input type="text" name="firstname" id="fname" placeholder="first name" required>
+                </td>
+                <td>
+                    <label for="sname">Last name: </label>
+                    <input type="text" name="lastname" id="sname" placeholder="last name" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">Email: </label>
+                    <input type="email" name="email" id="email" placeholder="mail@domain.edu" required>
+                </td>
+                <td>
+                    <label for="password">Password: </label>
+                    <input type="password" name="password" id="password" placeholder="password" required>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    Are you over the age of 18?
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="yes">Yes </label>
+                    <input type="radio" name="age" id="yes" value="y">
+                </td>
+                <td>
+                    <label for="no">No </label>
+                    <input type="radio" name="age" id="no" value="n">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    Please select payment method:
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <select name="payment">
+                        <option value="credit">Credit Card</option>
+                        <option value="paypal">PayPal</option>
+                        <option value="wire">Wire Transfer</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                </td>
+                <td> 
+                    <input type="submit" value="Sign Up">
+                </td>
+            </tr>
+        </table>
+
+    </form>
+</body>
+</html>
