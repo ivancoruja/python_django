@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Splash&display=swap');
+
+body {
+    font-family: 'Splash', cursive;
+    font-size: 1em;
+}
+
+header {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+}
+
+table {
+    margin: auto;
+    width: 60%;
+    height: 400px;
+}
+
+td {
+    border: 6px solid white;
+}
+
+#one {
+    background-color: #F3B700;
+}
+
+#two {
+    background-color: #FAA300;
+}
+
+#three {
+    background-color: #E57C04;
+}
+
+#four {
+    background-color: #FF6201;
+}
+
+#five {
+    background-color: #F63E02;
+}
+
