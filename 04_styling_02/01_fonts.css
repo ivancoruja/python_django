@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Barrio&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&display=swap');
+
+body {
+    font-family: 'Edu SA Beginner', cursive;
+}
+
+h1 {
+    font-family: 'Barrio', cursive;
+}
