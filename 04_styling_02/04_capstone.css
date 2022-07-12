@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Tomorrow&display=swap');
+
+body {
+    font-family: 'Tomorrow', sans-serif;
+    background-color: rgb(0, 25, 37);
+    color: rgb(255, 217, 112);
+    text-align: center;
+    border: 40px solid aquamarine;
+    border-top: 0px;
+    margin: 0px;
+    padding: 10px;
+}
+
+p {
+    padding: 10px 30%;
+}
+
+label, input {
+    font-size: 1.2em;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+#sub {
+    background-color: goldenrod;
+    height: 80px;
+    width: 180px;
+    margin-top: 12px;
+    font-size: 1.5em;   
+    border-radius: 20px; 
+}
