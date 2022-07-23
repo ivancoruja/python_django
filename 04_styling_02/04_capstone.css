@@ -20,7 +20,12 @@ label, input {
     display: block;
     margin: 0 auto;
     margin-bottom: 10px;
-}
+}.
+
+
+
+
+
 
 #sub {
     background-color: goldenrod;
@@ -29,4 +34,4 @@ label, input {
     margin-top: 12px;
     font-size: 1.5em;   
     border-radius: 20px; 
-}
+}*-----------+
