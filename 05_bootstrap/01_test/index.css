@@ -1,0 +1,15 @@
+.container {
+    margin-top: 8%;
+}
+
+.help_text {
+    font-size: small;
+}
+
+#select {
+    margin: auto;
+}
+
+#pass {
+    margin-top: 4%;
+}
